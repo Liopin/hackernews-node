@@ -1,0 +1,11 @@
+# HTTP endpoint
+#endpoint: ''
+endpoint: https://eu1.prisma.sh/lionel-pinheiro/hackernews-node/dev
+
+# Points to the datamodel
+datamodel: datamodel.prisma
+
+# Specifies language & location for the generated Prisma client
+generate:
+- generator: javascript-client
+  output: ../src/generated/prisma-client
